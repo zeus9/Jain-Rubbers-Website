@@ -11,8 +11,12 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+h1{
+  font-size: 2em;
+}
+
 .lead{
-font-size:1.15em !important;
+  font-size:1.15em !important;
 }
 
 .main-text{
@@ -20,7 +24,7 @@ font-size:1.15em !important;
 }
 
 .main-desc{
-/* font-weight: 100 !important; */
+  /* font-weight: 100 !important; */
 }
 
 .logo{
@@ -32,13 +36,13 @@ font-size:1.15em !important;
 /* #1E90FF */
 
 .jain{
-color:rgb(13, 153, 214);
-font-weight: inherit;
+  color:rgb(13, 153, 214);
+  font-weight: inherit;
 }
 
 .footer-style{
   color: rgba(0, 0, 0, 0.5);
-font-size: .80em;
+  font-size: .80em;
 }
 
 .bg-image{
@@ -53,6 +57,12 @@ font-size: .80em;
   background-size: cover; */
 }
 
+.blur {
+  -webkit-filter: blur(0.3rem);
+  filter: blur(0.3rem);
+  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
 .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
 
 .nav-link{ margin-right: 1em !important;}
@@ -62,3 +72,20 @@ font-size: .80em;
 .navbar-collapse{ justify-content: flex-end;}
 
 .navbar-toggler{  background:#fff !important;}
+
+.material-icons{
+  font-size: 1.3em;
+}
+
+.button-text{
+  margin-left: 0.2em;
+}
+
+select.selectpicker{
+  display: block !important;
+}
+
+.navbar-toggler{
+background-color: transparent!important;
+border-color: transparent!important;
+}
