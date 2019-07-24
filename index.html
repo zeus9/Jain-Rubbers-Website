@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   <!-- Import Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto|Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:300,400,600,700,800|Roboto:100,300,400,500,700,900|Roboto+Condensed:300,400,700|Roboto+Slab&display=swap" rel="stylesheet">
 
   <!-- Google Material Icons -->
   <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
@@ -18,15 +19,15 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-
+  <!-- Bootstrap Select imports -->
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.10/dist/css/bootstrap-select.min.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.10/dist/css/bootstrap-select.min.css"> -->
 
   <!-- Latest compiled and minified JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.10/dist/js/bootstrap-select.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.10/dist/js/bootstrap-select.min.js"></script> -->
 
   <!-- (Optional) Latest compiled and minified JavaScript translation files -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.10/dist/js/i18n/defaults-*.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.10/dist/js/i18n/defaults-*.min.js"></script> -->
 
 
 
@@ -37,72 +38,126 @@
 
   <title>Jain Rubbers Pvt. Ltd., Chennai</title>
 </head>
-<body class="text-center">
+<body class="text-center w-100 light-bg">
   <div class="cover-container d-flex w-100 h-100 flex-column">
 
-    <div class="header mb-auto">
-      <nav class="navbar navbar-expand-md navbar-light bg-light static-top shadow">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"><span class="logo"><span class="jain">J</span>R</span></h1></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Customers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-
-      <main role="main" class="inner cover mx-auto">
-        <div class="mx-auto">
-          <h1 class="cover-heading"><span class="logo"><span class="jain">JAIN</span> RUBBERS</span></h1>
-          <span>Engineering excellence since <strong>1990</strong></span>
-          <p class="mt-4">
-            <a href="#" class="btn btn-outline-success">Get a Quote!</a> <span class="mx-2"> or </span>
-            <a href="tel:+919444275273" class="btn btn-dark">
-              <!-- <span class="oi oi-phone mr-1" title="device phone" aria-hidden="true"></span> -->
-              <!-- <i class="material-icons">phone_android</i> -->
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <span class="button-text"></span>Call Us
-            </a>
-          </p>
-          <!-- <select class="selectpicker" data-live-search="true">
-            <option>Mustard</option>
-            <option>Ketchup</option>
-            <option>Barbecue</option>
-          </select> -->
+    <section id="landing-page">
+      <div class="header mb-auto">
+        <nav class="navbar navbar-dark nav-bg-color fixed-top static-top navbar-expand-md shadow w-100">
+          <div class="container">
+            <a class="navbar-brand" href="index.html"><span class="logo"><span class="blue">J</span>R</span></h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Customers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+              <!-- search icon -->
+              <!-- <i class="fa fa-search" aria-hidden="true"> -->
+              <!-- <form class="form-inline-sm my-2 my-md-0">
+                <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success btn-sm my-2 my-sm-0" type="submit"></i>Search</button>
+              </form> -->
+            </div>
+          </nav>
         </div>
-      </main>
 
-      <footer class="footer-style mt-auto">
-        <p>Jain Rubbers Pvt. Ltd. Gummidipoondi, Chennai, India</p>
-      </footer>
+        <main role="main" class="inner cover mx-auto vertical-fill">
+          <div class="mx-auto">
+            <h1 class="cover-heading"><span class="logo"><span class="blue">JAIN</span> RUBBERS</span></h1>
+            <span class="tagline">Engineering excellence since <strong>1990</strong></span>
+            <p class="mt-4">
+              <a href="#" class="btn btn-outline-danger">Get a Quote!</a> <span class="mx-2"> or </span>
+              <a href="tel:+919444275273" class="btn btn-outline-dark">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span class="button-text"></span>Call Us
+              </a>
+            </p>
+          </div>
+        </main>
+      </section>
 
 
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <section id="contact" class="dark-bg">
+
+        <div class="contact-page">
+          <div class="row section-head blue">
+            <div class="col">
+              <h2 class="thin-text">Contact Us</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-7">
+              <form class="white thin-text">
+                <div class="form-group col">
+                  <label class="row pl-1" for="contactName">Name (required)</label>
+                  <input type="email" class="row form-control form-control-sm" placeholder="Name">
+                </div>
+                <div class="form-group col">
+                  <label class="row pl-1" for="contactEmail">Email address (required)</label>
+                  <input type="email" class="row form-control form-control-sm" placeholder="example@domain.com">
+                </div>
+                <div class="form-group col">
+                  <label class="row pl-1" for="companyName">Company Name</label>
+                  <input type="email" class="row form-control form-control-sm" placeholder="Company Name">
+                </div>
+                <div class="form-group col">
+                  <label class="row pl-1" for="productName">Select Product</label>
+                  <div class="row"><select class="custom-select custom-select-sm">
+                    <option>Product 1</option>
+                    <option>Product 2</option>
+                    <option>Product 3</option>
+                    <option>Product 4</option>
+                    <option>Product 5</option>
+                    <option>Product 6</option>
+                    <option>Customized/New</option>
+                    <option>Other</option>
+                  </select></div>
+                </div>
+                <div class="form-group col">
+                  <label class="row pl-1" for="message">Your Requirements/Query</label>
+                  <textarea class="row form-control form-control-sm" placeholder="Message" rows="3"></textarea>
+                </div>
+              </form>
+            </div>
+
+            <aside class="col-lg-5 white">
+              This is aside tag content..
+            </aside>
+          </div>
+        </section>
+
+
+
+        <footer class="footer-style pt-5 pb-1 dark-bg">
+          <p>© 2019 Jain Rubbers Pvt. Ltd. All Rights Reserved.</p>
+        </footer>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      </div>
     </div>
-  </div>
-</body>
-</html>
+  </body>
+  </html>
