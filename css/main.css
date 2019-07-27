@@ -14,7 +14,7 @@ body{
 }
 
 .vertical-fill{
-/* exception to spacing of 16unit factors and multiples */
+  /* exception to spacing of 16unit factors and multiples */
   padding: 14em 0 14em 0;
 }
 
@@ -125,32 +125,35 @@ font-size:1.15em !important;
 }
 
 .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
 .nav-bg-color{background-color: rgb(52, 58, 64, .95)}
+
 .nav-link{
   margin-right: 1em !important;
   color: darkslategray;
   font-weight: 300;
 }
 
-.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+.nav-link:hover{}
 
-.navbar-collapse{ justify-content: flex-end;}
+  .navbar-collapse{ justify-content: flex-end;}
 
-.navbar-toggler{
-  /* background: #fff !important; */
-  background-color: transparent !important;
-  border-color: transparent !important;
-}
+  .navbar-toggler{
+    /* background: #fff !important; */
+    background: none;
+    border: none;
+  }
 
-.navbar-toggler:focus, .navbar-toggler:active {
-  outline: none;
-  box-shadow: none;
-}
+  .navbar-toggler:focus, navbar-toggler:active{
+    outline: none;
+    box-shadow: none;
+    border-width: 0;
+  }
 
-#contact{
-  padding: 4em 8em 4em 8em;
-}
+  #contact-form div .form-control{
+    display:inline-block;
+  }
 
-.custom-select-sm{
-  font-size: .875rem;
-}
+  .custom-select-sm{
+    font-size: .875rem;
+  }
