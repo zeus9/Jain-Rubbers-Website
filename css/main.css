@@ -128,32 +128,144 @@ font-size:1.15em !important;
 
 .nav-bg-color{background-color: rgb(52, 58, 64, .95)}
 
+.navbar-toggler{
+  /* background: #fff !important; */
+  /* background: none; */
+  background:transparent !important;
+  border: none;
+}
+
+.navbar-toggler:focus, navbar-toggler:active{
+  outline: none;
+  box-shadow: none;
+  border-width: 0;
+}
+
+
+/* Navbar toggle icon animation css */
+.toggle-icon{
+  width: 27px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+/* need to change this redundancy for icon-bar class */
+.navbar-toggler.collapsed .toggle-icon .icon-bar
+{
+  display: block;
+  position: absolute;
+  background-color: darkgrey;
+  height: 3px;
+  width: 100%;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.navbar-toggler .toggle-icon .icon-bar{
+  display: block;
+  position: absolute;
+  background-color: white;
+  height: 2px;
+  width: 100%;
+  border-radius: 2px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.navbar-toggler.collapsed .toggle-icon .icon-bar.top-bar {
+  top: 0px;
+  width: 100%;
+  left: 0%;
+}
+
+.navbar-toggler.collapsed .toggle-icon .icon-bar.middle-bar, .navbar-toggler.collapsed .toggle-icon .icon-bar.second-middle-bar {
+  top: 8px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .toggle-icon .icon-bar.bottom-bar {
+  top: 16px;
+  width:100%;
+  left: 0%;
+}
+
+.navbar-toggler .toggle-icon .icon-bar.top-bar {
+  top: 0px;
+  width: 0%;
+  left: 50%;
+}
+
+.navbar-toggler .toggle-icon .icon-bar.middle-bar {
+  top: 8px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.navbar-toggler .toggle-icon .icon-bar.second-middle-bar {
+  top: 8px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.navbar-toggler .toggle-icon .icon-bar.bottom-bar {
+  top: 16px;
+  width: 0%;
+  left: 50%;
+}
+/* Navbar toggle icon animation css ends here  */
+
+
 .nav-link{
   margin-right: 1em !important;
   color: darkslategray;
   font-weight: 300;
 }
 
-.nav-link:hover{}
+.nav-link:active{
+  background-color: transparent !important;
+}
 
-  .navbar-collapse{ justify-content: flex-end;}
+.navbar-collapse{ justify-content: flex-end;}
 
-  .navbar-toggler{
-    /* background: #fff !important; */
-    background: none;
-    border: none;
-  }
 
-  .navbar-toggler:focus, navbar-toggler:active{
-    outline: none;
-    box-shadow: none;
-    border-width: 0;
-  }
+#contact-form div .form-control{
+  display:inline-block;
+}
 
-  #contact-form div .form-control{
-    display:inline-block;
-  }
-
-  .custom-select-sm{
-    font-size: .875rem;
-  }
+.custom-select-sm{
+  font-size: .875rem;
+}
