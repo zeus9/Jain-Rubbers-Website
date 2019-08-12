@@ -1,0 +1,8 @@
+.form-control{
+  border-radius: 0.1em !important;
+}
+
+.custom-select{
+  border-radius: 0.1em !important;
+  padding: .25em .5em !important;
+}
