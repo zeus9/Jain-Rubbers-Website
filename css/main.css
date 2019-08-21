@@ -39,8 +39,17 @@ body{
   color: darkgrey;
 }
 
+.black{
+  color: darkslategrey;
+}
+
 .thin-text{
   font-weight: 300;
+  /* font-size:  */
+}
+
+.page-heading{
+  font-size: 2.5rem;
 }
 
 .small-text{
@@ -273,4 +282,17 @@ font-size:1.15em !important;
 
 .custom-select-sm{
   font-size: .875rem;
+}
+
+
+/* Customers Page */
+#customers{
+  background-color: white;
+}
+
+.client-logo-fit{
+  max-height: 10rem;
+  max-width: 12rem;
+  display: inline-block;
+  margin: 2px;
 }
