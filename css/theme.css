@@ -6,3 +6,9 @@
   border-radius: 0.1em !important;
   padding: .25em .5em !important;
 }
+
+.client-logo-fit{
+  max-height: 8rem;
+  max-width: 8rem;
+  display: inline-block;
+}
