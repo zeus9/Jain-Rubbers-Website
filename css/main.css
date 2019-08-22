@@ -291,8 +291,8 @@ font-size:1.15em !important;
 }
 
 .client-logo-fit{
-  max-height: 10rem;
-  max-width: 12rem;
+  /* max-height: 12rem; */
+  /* max-width: 12rem; */
   display: inline-block;
   margin: 2px;
 }
