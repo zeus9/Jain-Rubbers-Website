@@ -295,4 +295,9 @@ font-size:1.15em !important;
   /* max-width: 12rem; */
   display: inline-block;
   margin: .8rem;
+transition: .2s;
+}
+
+.client-logo-fit:hover{
+  transform: scale(1.1);
 }
