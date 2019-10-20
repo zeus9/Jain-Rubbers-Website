@@ -21,6 +21,8 @@ body{
 
 .content{
   text-align: justify;
+  /* display: block;
+  margin: auto; */
 }
 
 .blue{
@@ -70,6 +72,10 @@ body{
 
 h1{
   font-size: 2em;
+}
+
+h3{
+  font-size: 1.2em
 }
 
 section{
