@@ -19,6 +19,10 @@ body{
   padding: 14em 0 14em 0;
 }
 
+.content{
+  text-align: justify;
+}
+
 .blue{
   color: rgb(13, 153, 214);
 }
@@ -40,7 +44,7 @@ body{
 }
 
 .black{
-  color: darkslategrey;
+  color: #43444b;
 }
 
 .thin-text{
@@ -295,7 +299,7 @@ font-size:1.15em !important;
   /* max-width: 12rem; */
   display: inline-block;
   margin: .8rem;
-transition: .2s;
+  transition: .2s;
 }
 
 .client-logo-fit:hover{
