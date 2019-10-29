@@ -157,7 +157,16 @@ font-size:1.15em !important;
   font-weight: normal;
 }
 
-.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+.nav-link {
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer;
+  justify-content: flex-start;
+}
 
 .nav-bg-color{
   background-color: #343A40;
@@ -169,6 +178,7 @@ font-size:1.15em !important;
   /* background: none; */
   background:transparent !important;
   border: none;
+  justify-content: flex-end;
 }
 
 .navbar-toggler:focus, navbar-toggler:active{
@@ -295,7 +305,10 @@ font-size:1.15em !important;
   background-color: transparent !important;
 }
 
-.navbar-collapse{ justify-content: flex-end;}
+.navbar-collapse
+{
+  justify-content: center;
+}
 
 
 #contact-form div .form-control{
